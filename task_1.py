@@ -7,7 +7,7 @@ class Field:
     '''
     Базовий клас для полів запису
     '''
-    def __init__(self, value: Any) -> None:
+    def __init__(self, value) -> None:
         self.value = value
     
     def __str__(self) -> str:
